@@ -10,6 +10,7 @@
 	<title>Data Label</title>
 </head>
 <body>
+	<a href="buat.php">Buat Label</a>
 	<table border="1">
 		<thead>
 			<th>No</th>
@@ -23,8 +24,7 @@
 					<td><?=$show['NAMA']?></td>
 					<td>
 						<a href="edit.php?id=<?=$show['ID']?>">Edit</a>
-						<a href="delete.php?id=<?=$show['ID']?>">Delete</a>
-
+						<a href="../../backend/label/delete.php?id=<?=$show['ID']?>">Delete</a>
 					</td>
 				</tr>
 			<?php $i++;endforeach;?>
